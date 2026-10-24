@@ -416,7 +416,7 @@
         "source": "github",
         "repo": "colibird-ai/local-mcp-claude-plugin"
       },
-      "description": "Local tools that let your AI use Mail, Calendar, Contacts, Teams, Slack, WhatsApp (Mac), OneDrive, Google Drive, Notion, Outlook (Windows) and Office files on Mac and Windows. Runs on your computer.",
+      "description": "Local tools that let your AI use Mail, Calendar, Contacts, Teams, Slack, WhatsApp, OneDrive, Google Drive, Notion, Outlook and Microsoft 365 mail and calendar, and Office files on Mac and Windows. Runs on your computer.",
       "author": {
         "name": "LMCP",
         "url": "https://www.local-mcp.com"
@@ -439,6 +439,31 @@
         "macos",
         "windows",
         "productivity"
+      ],
+      "license": "MIT"
+    },
+    {
+      "name": "dataverse",
+      "source": {
+        "source": "github",
+        "repo": "microsoft/Dataverse-skills",
+        "path": ".github/plugins/dataverse"
+      },
+      "description": "Microsoft Dataverse plugin for coding agents, covering record CRUD, bulk data operations, advanced queries, schema and metadata, administration, security, environment management, and solution lifecycle through MCP, CLI, and SDK workflows.",
+      "author": {
+        "name": "Microsoft",
+        "url": "https://www.microsoft.com"
+      },
+      "homepage": "https://github.com/microsoft/Dataverse-skills",
+      "repository": "https://github.com/microsoft/Dataverse-skills",
+      "keywords": [
+        "dataverse",
+        "power-platform",
+        "power-apps",
+        "dynamics-365",
+        "dynamics-crm",
+        "finance-operations",
+        "xpp"
       ],
       "license": "MIT"
     }
